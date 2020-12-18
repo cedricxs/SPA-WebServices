@@ -1,0 +1,78 @@
+{
+    "books": [
+        {
+            "name": "1984",
+            "author": "George Orwell",
+            "id": "231ac800-da86-11e7-b11a-f1a3b541af38",
+            "copies": [
+                {
+                    "submissionDate": "2016/12/06",
+                    "id": "c2da13d0-dabf-11e7-8fb4-b99f7664c177"
+                },
+                {
+                    "submissionDate": "2017/12/07",
+                    "id": "cbfca3b0-dabf-11e7-b993-41ea43809602"
+                },
+                {
+                    "submissionDate": "2017/12/08",
+                    "id": "3e35b560-dac1-11e7-92c1-a1c74e59ace4"
+                }
+            ]
+        },
+        {
+            "name": "La ferme de animaux",
+            "author": "George Orwell",
+            "id": "6cbc92e0-da86-11e7-b397-fd0e15229f62",
+            "copies": [
+                {
+                    "submissionDate": "2020/01/01",
+                    "id": "3e332560-dac1-11e7-92c1-a1c74e59ace4"
+                }
+            ]
+        },
+        {
+            "name": "Assassin Apprentice",
+            "author": "Robin Hobb",
+            "publicationDate": "1995",
+            "id": "90091c00-ddd8-11e7-a75e-7f7cd01ab94e",
+            "copies": [
+                {
+                    "submissionDate": "2017/12/18",
+                    "id": "3e35b560-dst1-11e7-92c1-a1c74e59ace4"
+                }
+            ]
+        }
+    ],
+    "users": [
+        {
+            "name": "Adrien",
+            "age": 18,
+            "id": "2b793500-dabc-11e7-96d9-3f4994e35ed5"
+        },
+        {
+            "name": "Cedricxs",
+            "age": 28,
+            "id": "2b793501-dabc-11e7-96d9-3f4994e35ed5"
+        }
+    ],
+    "loans": [
+        {
+            "copyId": "3e35b560-dac1-11e7-92c1-a1c74e59ace4",
+            "userId": "2b793500-dabc-11e7-96d9-3f4994e35ed5",
+            "loanDate": "1997/01/01",
+            "id": "f4890a53-f979-40c5-87bb-1248d911be74"
+        },
+        {
+            "copyId": "c2da13d0-dabf-11e7-8fb4-b99f7664c177",
+            "userId": "2b793500-dabc-11e7-96d9-3f4994e35ed5",
+            "loanDate": "1997/01/01",
+            "id": "2d4b9e44-fc44-417f-94d2-eb12138d5f96"
+        },
+        {
+            "copyId": "3e332560-dac1-11e7-92c1-a1c74e59ace4",
+            "userId": "2b793501-dabc-11e7-96d9-3f4994e35ed5",
+            "loanDate": "1997/01/01",
+            "id": "abdee2d0-0654-45cb-b358-1d16c7960791"
+        }
+    ]
+}
